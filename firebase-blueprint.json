@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Order": {
+      "title": "Order",
+      "description": "Customer purchase order for Delmon poultry products",
+      "type": "object",
+      "properties": {
+        "orderId": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "customerName": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "customerPhone": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "customerAddress": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "customerNotes": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "subtotal": {
+          "type": "number"
+        },
+        "depositPaid": {
+          "type": "number"
+        },
+        "remainingDue": {
+          "type": "number"
+        },
+        "total": {
+          "type": "number"
+        },
+        "paymentMethod": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "cardLast4": {
+          "type": "string",
+          "maxLength": 10
+        },
+        "cardBank": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "status": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "createdAt": {
+          "type": "string",
+          "maxLength": 40
+        },
+        "itemCount": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "orderId",
+        "customerName",
+        "customerPhone",
+        "customerAddress",
+        "total",
+        "status"
+      ]
+    },
+    "Customer": {
+      "title": "Customer",
+      "description": "Customer contact and delivery details",
+      "type": "object",
+      "properties": {
+        "customerId": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "phone": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "address": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "lastSeen": {
+          "type": "string",
+          "maxLength": 40
+        }
+      },
+      "required": [
+        "customerId",
+        "name",
+        "phone"
+      ]
+    }
+  },
+  "firestore": {
+    "/orders/{orderId}": {
+      "schema": "Order",
+      "description": "Purchase orders placed through Delmon Poultry"
+    },
+    "/customers/{customerId}": {
+      "schema": "Customer",
+      "description": "Customer delivery addresses and profiles"
+    }
+  }
+}

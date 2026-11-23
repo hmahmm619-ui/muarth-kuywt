@@ -1,0 +1,46 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://2E69fjauQUifwhy.b92d921dddb3:I3QV0cLPYzt73V4zXTL7@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/6uRhs4N86FSkf4SGe37Nrr?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://2E69fjauQUifwhy.b92d921dddb3:I3QV0cLPYzt73V4zXTL7@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/6uRhs4N86FSkf4SGe37Nrr?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "6uRhs4N86FSkf4SGe37Nrr"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663804154979/6uRhs4N86FSkf4SGe37Nrr",
+    "access_key_id": "ASIAZV3A2ECZPJRAWLM6",
+    "secret_access_key": "SPyKK6PdMHufJWZqPPCStlADWnk7q3US/j5L1DvI",
+    "session_token": "IQoJb3JpZ2luX2VjEL///////////wEaCXVzLWVhc3QtMSJGMEQCIBJonlQyjWGc6rfesZeYKnCsEY5BfOonlnHYBs74b0n6AiBQmeZfhx9h4k/o2HP4BmM0C8Fk1JhuWXpAIxPyZycdYSr/AwiI//////////8BEAQaDDY2NTM4NjA5ODg2NiIMGQQ+g5cy544Be5XRKtMDFmuDdDL3LBvmEvxc21tqorggAo0oRq815Pu199dlm7EUO/OH3j+MgHWXsAlnG3dTwNIsi/O9OyNL0u6FsENGB8hk5Fl0tNVxVOpnCYnYhtn8tJraYoYpnTXJGT68JV30A7sZhWh3pvy2eP+RYGfwN8ijgHsmBRSe2Yf2rIq473Ed81Q451eUlsg2WnArRgHrhegHKU1cqm5ePlrx8SG4NHk4rsmy9B9ZoD9nuLylVjpMZI6JQhzzYAWBiBHbJglk0Nzbpca1bLD8mrv8CD3QqzeX9jxmfv+SmUz9F4JfokNu9rDKdL9JM9bMgYsyZHmYlVOYKcF+qDuzETsn7YEKQgnBXIHVG6aiYYolUZ59L6jvi3TPnnjIqTr+CWHaM5Ox32bOpNBDqdCCksQm6EQ76j4Ov3VP4onaCoW5r5etwfnjbk4LgUfTlD94lKY5uzj2MVEsXsp8Z67uQel9hGaXcCtLETY1IoPE3VuL1ymf/4PD+7JIpLT3W89+tgHEhL0gmjP/93uxPKjUKTFEVEvO3Sg0mpgotztfTbaJ/Y05LQ4K9rGYdrpaCMYqKsDEXY7VUpVy2DjpZ2sm9jrRAB9RSxSokHvEM0p6PA4Eyj8d3Yj0dhgwhvup0wY6ngFTipKyw6rWRpW/A75UrpNjXWymuFH4x0AYnSclFbD4ZQht4CyiT+8dz5ujZhI5yNp0VPJkABKpjDWN5yYp/gqcY3xfg7On7llVOTcrzGjiDlu2kH58owMkOJrOwMnlmIrmZZvoJa36mcHETwmJDqJMjsm+G4K9PM9YvvDI7tb5wfNu1DCC6vzL26+fOMGCG7HeW9Hjf+NozLVw4wv1qQ==",
+    "expiration": "2026-07-30T10:24:06.000Z",
+    "backend": "GIT_BACKEND_S3"
+  },
+  "name": "swiftmove",
+  "path": "/home/ubuntu/swiftmove",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "avkxc3M3AvXvW4MwCXtFRU",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "Y2eWoW6ayTRtXWhyfoNaiK",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Sona Nazzal",
+    "OWNER_OPEN_ID": "3i2eMdLeRfxG5RSFZwAtTR",
+    "TELEGRAM_BOT_TOKEN": "8911571776:AAF34QGAz1SPQa7bjijcXblKi-bSbY2qY0Q",
+    "TELEGRAM_CHAT_ID": "6726553753",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "e62f004c-a7ae-415b-aff3-59d1033cc538",
+    "VITE_APP_ID": "6uRhs4N86FSkf4SGe37Nrr",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663804154979/IBTqnCGfSxEndZPC.png",
+    "VITE_APP_TITLE": "SwiftMove \u0026 Clean",
+    "VITE_FRONTEND_FORGE_API_KEY": "Nay8ixHZZsZXGbup4qSLiL",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
